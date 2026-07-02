@@ -13,11 +13,11 @@
 
 # Overview
 
-SEO Rank is a production-ready backend application that performs complete website SEO analysis and keyword ranking using AI.
+SEO Rank is a production-ready backend application that performs complete website SEO analysis and keyword rank tracking using AI.
 
 The application combines modern web scraping, Google Gemini AI, Browserless cloud browsers, and Playwright automation to generate professional SEO reports, monitor keyword rankings, and store historical ranking data.
 
-This Application was built to simulate a real-world SaaS SEO platform where users can:
+This application was built to simulate a real-world SaaS SEO platform where users can:
 
 - Analyze any website
 - Get AI-generated SEO recommendations
@@ -181,14 +181,11 @@ SEO Reports
 
 ---
 
-
-
-
 # API Endpoints
 
 ## Authentication
 
-```
+```text
 POST /api/auth/register
 
 POST /api/auth/login
@@ -200,7 +197,7 @@ GET /api/auth/profile
 
 ## SEO Analysis
 
-```
+```text
 POST /api/analysis/analyze
 
 GET /api/analysis/list
@@ -214,7 +211,7 @@ DELETE /api/analysis/:id
 
 ## Rank Tracking
 
-```
+```text
 POST /api/rank
 
 GET /api/rank
@@ -232,7 +229,7 @@ DELETE /api/rank/:id
 
 # SEO Report Example
 
-```
+```text
 Overall Score
 
 92
@@ -277,7 +274,7 @@ Slow Loading Time
 
 # Keyword Tracking Example
 
-```
+```text
 Keyword
 
 best seo tools
@@ -307,9 +304,9 @@ Best Position
 
 # Cron Job
 
-The Application automatically checks rankings every day.
+The application automatically checks rankings every day.
 
-```
+```text
 Schedule
 
 0 6 * * *
@@ -353,7 +350,7 @@ Multi-language Support
 
 Team Collaboration
 
-Applications & Workspaces
+Projects & Workspaces
 
 Google Search Console Integration
 
@@ -370,10 +367,3 @@ Technical SEO Scanner
 XML Sitemap Generator
 
 Robots.txt Analyzer
-
-
-
-
-
-
-
