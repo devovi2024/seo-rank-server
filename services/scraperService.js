@@ -1,5 +1,5 @@
 import { chromium } from 'playwright';
-import Browserless from '@browserless/io';
+import Browserless from '../utils/browserlessClient.js';
 
 const bl = new Browserless({
   apiKey: process.env.BROWSERLESS_API_KEY,
